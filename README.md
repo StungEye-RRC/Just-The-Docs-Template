@@ -18,16 +18,16 @@
 
 + Zach: - What is Git (including pros and cons). `index.md`
 
-+ Alex: - The Git Life Cycle. `docs\cycle.md`
++ Alex: - The Git Life Cycle. `docs\git-life-cycle.md`
 
-+ Alex: - Git Fundamentals. `docs\fundamentals.md`
++ Alex: - Git Fundamentals. `docs\git-fundamentals.md`
   + Configuring Git
   + Initializing a Repo
   + Staging and Commit Files
   + Status, Log, and Diff
   + Using a Git Ignore File
 
-+ Angel: - Undoing in Git with: `docs\undoing.md`
++ Angel: - Undoing in Git with: `docs\undoing-in-git.md`
   + Checkout
   + Reset
   + Revert
@@ -42,17 +42,17 @@
 
 + Alex: - Tags `docs\tags.md`
 
-+ Craig: - Remote Repositories `docs\remote.md`
++ Craig: - Remote Repositories `docs\remote-repos.md`
   + Adding / Configuring a GitHub Remote
   + Pushing and Pulling
   + Remote Auth with SSH Keys
 
-+ Zach: - The How and Why of Team Git Workflow `docs\workflow.md`
++ Zach: - The How and Why of Team Git Workflow `docs\team-git-workflow.md`
   + Centralized Workflow
   + Feature Branch Workflow
   + Forking Workflow
 
-+ Craig: - Other Interesting/Useful Git Topics `docs\interesting.md`
++ Craig: - Other Interesting/Useful Git Topics `docs\other-topics.md`
 
 # just-the-docs-template
 
