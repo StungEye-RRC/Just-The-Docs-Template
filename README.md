@@ -1,3 +1,59 @@
+# Roles/Tasks
+
+### Every page (except for the home page) is required to include:
+
+- A short summary of its content at the top.
+
+- A table of contents with links to the various sections. (The repo readme explains how to auto-generate these.)
+
+- The topic documentation separated into logical sub-section with descriptive headings.
+
+- A list of links to resources where one can find more information about the topics covered on this page.
+
+- Git commands should be displayed in monospace font or within code blocks.
+
+* * *
+
++ Zach: - The role of version control in software development. `index.md`
+
++ Zach: - What is Git (including pros and cons). `index.md`
+
++ Alex: - The Git Life Cycle. `docs\git-life-cycle.md`
+
++ Alex: - Git Fundamentals. `docs\git-fundamentals.md`
+  + Configuring Git
+  + Initializing a Repo
+  + Staging and Commit Files
+  + Status, Log, and Diff
+  + Using a Git Ignore File
+
++ Angel: - Undoing in Git with: `docs\undoing-in-git.md`
+  + Checkout
+  + Reset
+  + Revert
+  + Clean
+  + When to use the different strategies.
+
++ Angel: - Creating, Using, and Merging Branches `docs\branches.md`
+
++ Craig: - Resolving Merge Conflict `docs\merge-conflicts.md`
+
++ Angel: - Stashing `docs\stashing.md`
+
++ Alex: - Tags `docs\tags.md`
+
++ Craig: - Remote Repositories `docs\remote-repos.md`
+  + Adding / Configuring a GitHub Remote
+  + Pushing and Pulling
+  + Remote Auth with SSH Keys
+
++ Zach: - The How and Why of Team Git Workflow `docs\team-git-workflow.md`
+  + Centralized Workflow
+  + Feature Branch Workflow
+  + Forking Workflow
+
++ Craig: - Other Interesting/Useful Git Topics `docs\other-topics.md`
+
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a documentation website that:
