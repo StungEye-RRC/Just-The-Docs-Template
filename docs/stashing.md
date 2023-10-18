@@ -9,6 +9,8 @@ nav_order: 7
 
 Git stash allows you to put aside changes that you don't want to commit immediately.
 
+---
+
 *Imagine a magic toy box:*
 
 Allows kid to instantly clean their room. When they want to play again, all toys are restore to their former positions
@@ -27,6 +29,7 @@ git stash
 ``` 
 
 This command stashes your changes, leaving you with a clean working directory.
+
 **Remember, it's only a temporary storage. Don't forget about your stashed changes!**
 
 
@@ -53,7 +56,11 @@ To restore stashed changes, use:
 ## Other Helpful Stash Commands
 
 `git stash list` : Review all your stashes before deciding to apply or drop them.
+
 `git stash drop` : Removes the most recent stash from the stack without applying it.
+
 `git stash branch <branchname>` : Creates a new branch based on the popped stash.
+
 `git stash clear` : This command removes all your stashes.
+
 `git stash pop 'stash@{n}'` : Pop a specific stash seen in `git stash list`
