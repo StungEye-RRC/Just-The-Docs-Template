@@ -12,7 +12,8 @@ Alex: Write short biography
 
 Angel: Write short biography
 
-Craig: Write short biography
+### Craig Franceschetti:
+I'm currently enrolled in Game Development - Programming at RRC. I have a passion for coding in C# and would like to learn more about pushing computer hardware with to their limit with C++.
 
 Zach: Write short biography
 
