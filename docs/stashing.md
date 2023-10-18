@@ -9,11 +9,8 @@ nav_order: 7
 
 Git stash allows you to put aside changes that you don't want to commit immediately.
 
----
-
-*Imagine a magic toy box:*
-
-Allows kid to instantly clean their room. When they want to play again, all toys are restore to their former positions
+>*Imagine a magic toy box:*
+>Allows kid to instantly clean their room. When they want to play again, all toys are restore to their former positions
 
 ## Table of Contents
 {: .no_toc }
