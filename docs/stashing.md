@@ -3,16 +3,32 @@ title: Stashing
 layout: default
 nav_order: 7
 ---
-
+<!-- prettier-ignore-start -->
 # Stashing
-Git stash allows you to put aside changes that
-you don't want to commit immediately.
+{: .no_toc }
 
+Git stash allows you to put aside changes that you don't want to commit immediately.
 
-Imagine a magic toy box:
-Allows kid to instantly clean their room.
-When they want to play again, all toys are
-restore to their former positions
+*Imagine a magic toy box:*
+
+Allows kid to instantly clean their room. When they want to play again, all toys are restore to their former positions
+
+## Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
+
+## Stashing in Action
+``` 
+git stash
+``` 
+
+This command stashes your changes, leaving you with a clean working directory.
+**Remember, it's only a temporary storage. Don't forget about your stashed changes!**
+
 
 ## When to Stash?
 
@@ -23,8 +39,8 @@ to commit yet.
 
 ## The Stash Stack
 
-Think of 'git stash' as creating a stack of saved changes. You can stash multiple sets of
-changes and Git will store them in a LIFO (Last In, First Out) stack.
+Think of 'git stash' as creating a stack of saved changes. 
+You can stash multiple sets of changes and Git will store them in a LIFO (Last In, First Out) stack.
 
 ## Restoring Stashed Changes
 
