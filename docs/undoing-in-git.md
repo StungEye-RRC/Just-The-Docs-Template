@@ -24,8 +24,6 @@ With Git we can undo almost anything.
 
 ## Checkout
 
----
-
 ### When to Undo with Checkout?
 
 The simplest private undo. **Discard uncommitted local changes.**
@@ -52,8 +50,6 @@ git checkout .
 _**WARNING:** Slightly dangerous. The discarded changes cannot be recovered!_
 
 ## Reset
-
----
 
 ### When to Undo with Reset?
 
@@ -83,8 +79,6 @@ git reset --soft [commit id]
 _**WEIRD:** HEAD and your working directory may differ if you had uncommited changes._
 
 ## Revert
-
----
 
 ### When to Use Revert?
 
