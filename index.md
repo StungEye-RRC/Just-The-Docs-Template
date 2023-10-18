@@ -10,7 +10,8 @@ Zach: Write here about 'What is Git (including pros and cons)' documentation.
 
 Alex: Write short biography
 
-Angel: Write short biography
+### Angel Gamis:
+I'm currently enrolled in Game Development - Programming at RRC. I enjoy hanging out with my friends and family and would like to persue a career in programming. I have experience in Javascript and C#
 
 ### Craig Franceschetti:
 I'm currently enrolled in Game Development - Programming at RRC. I have a passion for coding in C# and would like to learn more about pushing computer hardware with to their limit with C++.
