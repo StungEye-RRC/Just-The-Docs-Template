@@ -147,7 +147,6 @@ Or we can revert a sequence of commits: *(Each commit is reverted separately!)*
 
 ```
 git revert C^..D
-
 ```
 If you only want a single revert commit: *(The -n stands for "no commit".)*
 ```
