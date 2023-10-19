@@ -10,7 +10,7 @@ nav_order: 5
 
 In Git, branches are like alternate timelines in a sci-fi movie.They allow you to work on different features or fixes without affecting the main project timeline until you choose to merge the timelines back together.
 
-![Diagram of branches](<https://github.com/CraigRRC/GitWikiGroup1/tree/main/photos/Screenshot%202023-10-18%20143317.png>)
+![Diagram of branches](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/Screenshot%202023-10-18%20143317.png>)
 
 ## Table of Contents
 {: .no_toc }
