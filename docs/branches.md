@@ -46,3 +46,9 @@ git checkout main
 git merge experimental
 ```
 
+## Additional Resources
+
+[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
+
+[Basics of Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+
