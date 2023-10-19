@@ -7,7 +7,7 @@ nav_order: 4
 # Undoing in Git
 {: .no_toc }
 
-With Git we can undo almost anything.
+With Git we can undo almost anything. There are three ways we can undo in git, `checkout`,`reset`, and `revert`.
 
 ## Table of Contents
 {: .no_toc }
@@ -35,7 +35,7 @@ Works if:
 - The changes you wish to undo haven't yet been committed. (Dirty files.)
 - You wish to revert to the most recently committed version of a file or files.
 
-## Undoing with Checkout
+### Undoing with Checkout
 
 Let's say you made a bunch of changes to your `readme.md` that you now regret.
 
@@ -78,6 +78,27 @@ git reset --soft [commit id]
 ```
 _**WEIRD:** HEAD and your working directory may differ if you had uncommited changes._
 
+#### Before Reset: HEAD at D
+
+![Before A Hard Reset Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/BeforeHardReset.png>)
+
+Let's say we want to undo the changes made in C and D:
+```
+git reset --hard B
+```
+
+#### After Reset HEAD at B
+
+![After A Hard Reset Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/AfterHardReset.png>)
+
+#### No Commits Were Lost
+```
+git reset --hard D
+```
+#### Back to Where we Started
+
+![Back To First Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/BeforeHardReset.png>)
+
 ## Revert
 
 ### When to Use Revert?
@@ -99,3 +120,51 @@ Creates a new commit that undoes changes from the specified commit.
 Reverting maintains history, making it a **safe choice** for:
 - Undoing local commits.
 - Undoing commits pushed to a remote repo.
+
+#### Before Revert: HEAD at D
+
+![Before Revert Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/BeforeHardReset.png>)
+
+If we wish to revert the changes made in D:
+```
+git revert D
+```
+
+#### After Revert: HEAD at E
+
+![After Revert Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/AfterRevert.png>)
+
+### Reverting Multiple Commits
+
+The `git revert` command reverts a single commit by default.
+
+We can run it mutiple times to revert multiple commits:
+```
+git revert D
+git revert C
+```
+Or we can revert a sequence of commits: *(Each commit is reverted separately!)*
+
+```
+git revert C^..D
+
+```
+If you only want a single revert commit: *(The -n stands for "no commit".)*
+```
+git revert -n C^..D
+git commit -m "Revert commits C through D inclusively."
+```
+
+## Undo: A Decision Tree
+
+![Undo Decision Tree Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/UndoDecisionTree.png>)
+
+## Additional Resources
+
+[Undoing Things Documentation](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
+
+[Git Checkout](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
+
+[Git Revert](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert)
+
+[Git Reset](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
