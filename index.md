@@ -93,7 +93,8 @@ Example of a DAG:
 # Team Members
 
 ## Steven
-
+![StevenPhoto](https://avatars.githubusercontent.com/u/144483744?v=4)
+This is a short paragraph biography of Steven.
 
 ## Olivier
 
