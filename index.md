@@ -88,3 +88,21 @@ Example of a DAG:
 - **Branch** - A lightweight movable pointer to a set of commits.
 - **HEAD** - The HEAD pointer is a reference to the most recent commit in your branch.
 - **Working Directory** - The current state of your repo's files on disk.
+
+
+# Team Members
+
+## Steven
+
+
+## Olivier
+
+
+## Russel
+
+
+## Lorenzo
+
+
+## Quentin
+
