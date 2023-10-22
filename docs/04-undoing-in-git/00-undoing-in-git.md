@@ -1,5 +1,6 @@
 ---
 title: Undoing in Git
+layout: default
 has_children: true
 nav_order: 4
 ---
