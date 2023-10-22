@@ -1,5 +1,6 @@
 ---
 title: Git Reset
+layout: default
 parent: Undoing in Git
 nav_order: 2
 ---
@@ -32,7 +33,7 @@ A `git reset` comes in two main flavors:
 
 `git reset --soft [commit id]`
 
-***WEIRD:*** *HEAD and your working directory may differ if you had uncommited changes.*
+***WEIRD:*** *HEAD and your working directory may differ if you have uncommitted changes.*
 
 ## Before Reset: HEAD at D
 
