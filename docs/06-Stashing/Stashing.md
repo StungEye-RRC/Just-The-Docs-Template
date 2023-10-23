@@ -32,7 +32,9 @@ This command stashes your changes, leaving you with a clean working directory.
 ## The Stash Stack
 
 Think of 'git stash' as creating a stack of saved changes.
+
 ![pancakes on brown tray by Brigitte Tohm](pancakes.jpg)
+Image Source: [https://unsplash.com/photos/EIJD83grkK0](https://unsplash.com/photos/EIJD83grkK0)
 
 You can stash multiple sets of changes and Git will store them in a LIFO (Last In, First Out) stack.
 
