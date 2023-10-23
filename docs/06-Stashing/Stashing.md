@@ -17,9 +17,9 @@ Imagine a magic toy box:
 
 ## When to Stash?
 
--You want to switch branches, but you're in the middle of something and don't want
+- You want to switch branches, but you're in the middle of something and don't want
 to commit yet.
--You need to pull changes, but you have uncommitted work.
+- You need to pull changes, but you have uncommitted work.
 
 
 ## Stashing in Action
@@ -39,13 +39,18 @@ You can stash multiple sets of changes and Git will store them in a LIFO (Last I
 ## Restoring Stashed Changes
 
 To restore stashed changes, use:
--`git stash pop` - Re-applies the changes and removes them from the stash.
--`git stash apply` - Re-applies the changes but keeps them in the stash.
+
+- `git stash pop` - Re-applies the changes and removes them from the stash.
+- `git stash apply` - Re-applies the changes but keeps them in the stash.
 
 ## Other Helpful Stash Commands
 
 `git stash list`: Review all your stashes before deciding to apply or drop them.
+
 `git stash drop`: Removes the most recent stash from the stack without applying it.
+
 `git stash branch <branchname>`: Creates a new branch based on the popped stash.
+
 `git stash clear`: This command removes all your stashes.
+
 `git stash pop 'stash@{n}`: Pop a specific stash seen in `git stash list`.
