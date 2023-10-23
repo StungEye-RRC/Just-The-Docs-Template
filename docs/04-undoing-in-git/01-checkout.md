@@ -1,12 +1,13 @@
 ---
 title: Git Checkout
+layout: default
 parent: Undoing in Git
 nav_order: 1
 ---
 
 # When to Undo with Checkout?
 
-The simplest private undo. **Discard uncommited local changes.**
+The simplest private undo. **Discard uncommitted local changes.**
 
 `git checkout <path-or-filename>`
 
