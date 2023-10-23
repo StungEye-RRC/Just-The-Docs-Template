@@ -80,7 +80,7 @@ _**WEIRD:** HEAD and your working directory may differ if you had uncommited cha
 
 #### Before Reset: HEAD at D
 
-![Before A Hard Reset Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/BeforeHardReset.png>)
+![Before A Hard Reset Diagram](../photos/BeforeHardReset.png)
 
 Let's say we want to undo the changes made in C and D:
 ```
@@ -89,7 +89,7 @@ git reset --hard B
 
 #### After Reset HEAD at B
 
-![After A Hard Reset Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/AfterHardReset.png>)
+![After A Hard Reset Diagram](../photos/AfterHardReset.png)
 
 #### No Commits Were Lost
 ```
@@ -97,7 +97,7 @@ git reset --hard D
 ```
 #### Back to Where we Started
 
-![Back To First Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/BeforeHardReset.png>)
+![Back To First Diagram](../photos/BeforeHardReset.png)
 
 ## Revert
 
@@ -123,7 +123,7 @@ Reverting maintains history, making it a **safe choice** for:
 
 #### Before Revert: HEAD at D
 
-![Before Revert Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/BeforeHardReset.png>)
+![Before Revert Diagram](../photos/BeforeHardReset.png)
 
 If we wish to revert the changes made in D:
 ```
@@ -132,7 +132,7 @@ git revert D
 
 #### After Revert: HEAD at E
 
-![After Revert Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/AfterRevert.png>)
+![After Revert Diagram](../photos/AfterRevert.png)
 
 ### Reverting Multiple Commits
 
@@ -156,7 +156,7 @@ git commit -m "Revert commits C through D inclusively."
 
 ## Undo: A Decision Tree
 
-![Undo Decision Tree Diagram](<https://github.com/CraigRRC/GitWikiGroup1/blob/main/photos/UndoDecisionTree.png>)
+![Undo Decision Tree Diagram](../photos/UndoDecisionTree.png)
 
 ## Additional Resources
 
