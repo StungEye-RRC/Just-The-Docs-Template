@@ -18,7 +18,7 @@ Remote repositories can interact with local repositories, allowing you to push y
 
 <!-- prettier-ignore-end -->
 ## Adding / Configuring a GitHub Remote
-![Add a Repo to GitHub](<https://github.com/CraigRRC/GitWikiGroup1/tree/main/photos/CreateRemoteRepo.png>)
+![Add a Repo to GitHub](../photos/CreateRemoteRepo.png)
 To save a local git repository to your GitHub account, create a new repository by way of the "+" button in the top right corner of the GitHub website.
 **Important:** Be sure not to initalize with a README or with any other files.
 
