@@ -8,7 +8,7 @@ nav_order: 6
 
 Git stash allows you to put aside changes that you don't want to commit immediately
 
-![ToyBox](https://unsplash.com/photos/qBrF1yu5Wys)
+![Alt text](https://unsplash.com/photos/qBrF1yu5Wys)
 
 Imagine a magic toy box:
 - Allows kid to instantly clean their room
@@ -32,7 +32,7 @@ This command stashes your changes, leaving you with a clean working directory.
 ## The Stash Stack
 
 Think of 'git stash' as creating a stack of saved changes.
-![StackOfPancakes](https://unsplash.com/photos/EIJD83grkK0)
+![Alt text](https://unsplash.com/photos/EIJD83grkK0)
 
 You can stash multiple sets of changes and Git will store them in a LIFO (Last In, First Out) stack.
 
