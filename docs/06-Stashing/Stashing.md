@@ -8,7 +8,8 @@ nav_order: 6
 
 Git stash allows you to put aside changes that you don't want to commit immediately
 
-![ToyBox](https://unsplash.com/photos/qBrF1yu5Wys)
+![ToyBox](toy-train.jpg)
+Image Source: [https://unsplash.com/photos/qBrF1yu5Wys](https://unsplash.com/photos/qBrF1yu5Wys)
 
 Imagine a magic toy box:
 - Allows kid to instantly clean their room
