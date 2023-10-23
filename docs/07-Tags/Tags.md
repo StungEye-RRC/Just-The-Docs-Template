@@ -34,14 +34,14 @@ an optional message.
 ## Once You've Created a Tag
 
 **Checkout to the tag:** You can treat the tag like a branch/commit, and checkout to the
-tag's point in history. For instance, `git checkout <tag-name>`.
+tag's point in history. For instance, `git checkout <tag-name>` .
 
 **List Tags:** You can list all the tags in the repository using `git tag` or `git tag -l` . To
 narrow the list based on a search pattern, you can use `git tag -l "<search-
-pattern>"`.
+pattern>"` .
 
 **Show tag information:** If you have annotated tags, you can view the associated
-information with `git show <tag-name>`.
+information with `git show <tag-name>` .
 
 **Compare differences:** You can compare the differences between the tagged state of
-the code and the current HEAD using `git diff <tag-name>`.
+the code and the current HEAD using `git diff <tag-name>` .
