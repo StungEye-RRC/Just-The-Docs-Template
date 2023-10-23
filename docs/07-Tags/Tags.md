@@ -7,15 +7,18 @@ nav_order: 7
 # Introducing Tags
 
 **Tags in Git are like bookmarks for important events or milestones in your project** 
+
 They're often used to mark release points (v1.0.0, v1.1.0, etc.). 
 
 ## Creating Tags
 
 **Creating a new lightweight tag:**
+
 `git tag <tag-name>
 git tag <tag-name> <commit hash>`
 
 This will tag the current or specified commit with the provided name.
+
 Tag names should not include spaces. They should only include characters [a-z], [A-Z],
 numbers [0-9] and the dash/hyphen [-].
 
