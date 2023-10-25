@@ -8,7 +8,8 @@ Zach: Write here about 'The role of version control in software development' doc
 
 Zach: Write here about 'What is Git (including pros and cons)' documentation.
 
-Alex: Write short biography
+### Alex Bacon
+I'm currently enrolled in Game Development - Programming at RRC. I love playing video games of all kinds. I love reading and have a bachelor of arts in English Literature. I love coding and have experience with Java, Python and C#. 
 
 ### Angel Gamis:
 I'm currently enrolled in Game Development - Programming at RRC. I enjoy hanging out with my friends and family and would like to persue a career in programming. I have experience in Javascript and C#
