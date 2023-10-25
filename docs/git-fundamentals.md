@@ -3,8 +3,19 @@ title: Git Fundamentals
 layout: default
 nav_order: 3
 ---
-
+<!-- prettier-ignore-start -->
 # Git Fundamentals
+
+This page goes through the set up of git and a new repositiory.
+
+## Table of Contents 
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+<!-- prettier-ignore-end -->
+
 
 ## Configuring Git
 
@@ -66,4 +77,13 @@ You can also ignore all files in a specific folder **ignoreFolder/**
 
 Or you can ignore specific files in a specific folder **ignoreFolder/****/*.pdf** (this will ignore all .pdf files in the ignoreFolder).
 
-
+## Additonal Resources
+[Git status documentation](https://git-scm.com/docs/git-status)
+[Git diff documentation](https://git-scm.com/docs/git-diff)
+[Git config documentation](https://git-scm.com/docs/git-config)
+[Git init documentation](https://git-scm.com/docs/git-init)
+[Git add documentiation](https://git-scm.com/docs/git-add)
+[Git commit documentation](https://git-scm.com/docs/git-commit)
+[Git status documentation](https://git-scm.com/docs/git-status)
+[Git log documentation](https://git-scm.com/docs/git-log)
+[Git ignore documentation](https://git-scm.com/docs/gitignore)
