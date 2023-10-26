@@ -4,7 +4,9 @@ layout: home
 nav_order: 1
 ---
 
-Zach: Write here about 'The role of version control in software development' documentation.
+### Version Control
+The use of version control, revision control or source control is used in order to manage changes of documents, as well as make changes in different versions of a document. Version control can even do things like going back to a previous version of the documents to change a part of a file or fix a bug. Using version control can also enable you to collaborate with people on projects or documents as well and go back to previous versions of documents if you ever needed to.
+CTRL-Z can even be considered a very simple form of version control. Some programs also have a form of version control as well, like Wikipedia for example. Wikipedia has an edit history of all the website articles on Wikipedia.
 
 Zach: Write here about 'What is Git (including pros and cons)' documentation.
 
