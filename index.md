@@ -17,7 +17,8 @@ I'm currently enrolled in Game Development - Programming at RRC. I enjoy hanging
 ### Craig Franceschetti:
 I'm currently enrolled in Game Development - Programming at RRC. I have a passion for coding in C# and would like to learn more about pushing computer hardware with to their limit with C++.
 
-Zach: Write short biography
+### Zachery Gilbert: 
+I'm currently enrolled in Game Development - Programming at RRC. I like doing things like playing games, as well as creating them. I take interest in the making of games as well as some coding as well. I have some experience in Java, C#, Javascript.
 
 ----
 
