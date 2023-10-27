@@ -57,3 +57,8 @@ How it works is like Feature Branch workflow, but:
 - Resolving Conflicts: Remote commits from `upstream` can be pulled into the local feature branch, with merge conflicts resolved if needed.
 - Pushing to Remote: The local feature branches are then pushed to the forked remote.
 - Requesting a remote Merge: Finally pull requests are initiated to request any merges from the remote fork to the official upstream repo.
+
+## Additional Resources
+
+[GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)
+
