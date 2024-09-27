@@ -30,16 +30,15 @@ Cons of using Git:
 
 Aiden
 - Aiden is a programmer and web developer, who enjoys gardening, playing games, and going out with friends.
----
+
 Cole
  - write yours here
- ---
+
 Spike
  - write yours here
- ---
+
 Santiago
  - write yours here
- ---
+ 
 Alex
  - write yours here
- ---
