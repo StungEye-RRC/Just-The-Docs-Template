@@ -38,7 +38,7 @@ Cons of using Git:
  - write yours here
 
 **Santiago**
- - write yours here
+ - Is a programmer with experience in Java, Python, and C#. He enjoys biking, running, and playing a variety of games
 
 **Alex**
  - write yours here
