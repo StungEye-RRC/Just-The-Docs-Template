@@ -4,11 +4,11 @@ We are a team of 5 people
 ### Santiago
 - The role of version control in software development
 - Git Fundamentals
-      - Configure Git
-      - Initializing a Repo
-      - Staging and commiting Files
-      - Status, Log, and Diff
-      - Using Git ignore File
+  - Configure Git
+  - Initializing a Repo
+  - Staging and commiting Files
+  - Status, Log, and Diff
+  - Using Git ignore File
 ### Aiden
   - What is Git (inculding Pros and Cons)
   - The Git Life cycle
