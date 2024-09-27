@@ -2,8 +2,8 @@
 
 We are a team of 5 people
 ### Santiago
-    - The role of version control in software development
-    - Git Fundamentals
+- The role of version control in software development
+- Git Fundamentals
       - Configure Git
       - Initializing a Repo
       - Staging and commiting Files
