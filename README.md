@@ -10,7 +10,7 @@ We are a team of 5 people
   - Status, Log, and Diff
   - Using Git ignore File
 ### Aiden
-  - What is Git (inculding Pros and Cons)
+  - What is Git (inculding Pros and Cons) ✅
   - The Git Life cycle
   - Remote Repositories
 ### Cole
