@@ -28,17 +28,17 @@ Cons of using Git:
 
 # Team Biography
 
-Aiden
+**Aiden**
 - Aiden is a programmer and web developer, who enjoys gardening, playing games, and going out with friends.
 
-Cole
+**Cole**
  - write yours here
 
-Spike
+**Spike**
  - write yours here
 
-Santiago
+**Santiago**
  - write yours here
- 
-Alex
+
+**Alex**
  - write yours here
