@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Just The Dawgs
+description: Collaborative Assignment
 theme: just-the-docs
 
-url: https://StungEye-RRC.github.io/Just-The-Docs-Template
+url: https://Sapin5.github.io/Just-The-Docs-Template
 
-aux_links:
-  Template Repository: https://github.com/StungEye-RRC/Just-The-Docs-Template
+aux_links: # remove if you don't want this link to appear on your pages
+  Template Repository: https://github.com/Sapin5/Just-The-Docs-Template
