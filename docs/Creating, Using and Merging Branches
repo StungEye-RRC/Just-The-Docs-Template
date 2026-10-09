@@ -1,0 +1,76 @@
+#Creating, Using, and Merging Branches
+
+##A comprehensive Git Tutorial
+
+When using branches in Git, think of branches almost like creating an alternite timeline that spreads off of your main. Where within your branch you can make whatever changes you want and alter anything wtihout it actually effecting main.
+Another way to think of it is like saving a game. Where as commiting changes is like saving your game to the same file, creating a branch is like saving to a new file completley. You still keep your old file, but now you have a new one as well to do whatever you want in.
+However, the main branch holds more precedent over its branching paths. As your "main" should essentially be the most complete and compiled version of your project. It is essentially the main version of your product.
+To use an anology, you could think of it almost like that of the branches of your tree. Where your main is the main trunk and your branches are, well, the branches.
+Cut off a branch and the tree still stands, but cut down the tree at its base and the whole thing topples over. 
+
+to create a branch in the Windows powershell terminal, the most common method is the following:
+
+
+```
+git branch <branch-name>
+
+```
+
+Then, in order to switch to your desired branch:
+
+```
+git checkout <branch-name> 
+
+```
+
+However, one important thing that you can do when working with branches is called merging. 
+
+See, when you create a branch, it does not have to be a dead end. In fact, if you implement a feature you like in a branch and want to add it to your main you can merge the branch into main.
+This is where the real world implementation sort of falls apart, as essentially this allows you to take certain aspects from the alternate timeline and make it so they have happened in the main timeline.
+
+For a somewhat accurate analogy, let's take a look at the events of the movie Terminator.
+
+In the movie terminator, an ai called skynet has gone rogue and is trying to take over the world.
+
+However, they are stopped when a man named john connor, the leader of the human resistance destroys them.
+
+So, knowing this is going to happen, Skynet sends a terminator back in time to eliminate the mother of John Connor, Sarah.
+
+Consider this making our branch. As the terminator travels through time, they create a new timeline.
+
+In this branch, although not accurate to the events of the movie, let's say the terminator is successsful in eliminating their target, Sarah Connor. Resulting in John Connor never bieng born.
+
+Time travel logic and paradoxes aside, let's say that now the terminator wants to return to the main timeline. So that Skynet can enjoy the fruits of it's labor and may now reign uncontested.
+
+This would, essentially, be acting as our merge. As we are mergint the aspects of the branching timeline, that being sarah connors death and the nonexistance of John Connor, into the main timeline where Skynre is opposed.
+
+Once we merge this into our main branch, Skynet can now enjoy the fruits of all its labor, and everything involved in their main timeline, exept for that of the changes intoruduced in the branch where now John Connor no longer exists.
+
+So, lets get down to it.
+
+First, in order to merge a branch, you want to go to the recipient. 
+
+```
+git checkout main
+```
+
+Then, you are going to want to update it.
+
+```
+git pull origin main
+```
+
+Now, you can bring the features from your branch into main. 
+
+```
+git merge feature-login
+```
+
+Then, if you are working with a remote repository, you can push the changes to remote.
+
+```
+git push origin main
+```
+
+And that's all there is to it! 
+
