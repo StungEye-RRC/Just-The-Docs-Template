@@ -1,11 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: GitWiki | Group01
+description: A Git Wiki created by group 01!
 theme: just-the-docs
 
-url: https://StungEye-RRC.github.io/Just-The-Docs-Template
+url: https://carbon1337/SD1_A02_GitWiki_Group01
 
 aux_links:
-  Template Repository: https://github.com/StungEye-RRC/Just-The-Docs-Template
+  Template Repository: https://github.com/carbon1337/SD1_A02_GitWiki_Group01
 
 sass: # Added to silence a number of warning triggered during the build process.
   quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
