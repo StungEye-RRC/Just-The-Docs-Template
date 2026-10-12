@@ -1,0 +1,118 @@
+# The How and Why of Team Git Workflow
+
+## Overview
+
+This page covers the core principles, strategic patterns, and step-by-step terminal execution of collaborative Git workflows. It highlights why development teams rely on unified branch management systems and provides practical strategies for managing scripts, art assets, and Unity projects in a shared environment.
+
+## Table of Contents
+
+1. [Why Teams Use Collaborative Workflows](#why-teams-use-collaborative-workflows)
+2. [Common Git Workflow Models](#common-git-workflow-models)
+3. [Game Development Considerations](#game-development-considerations)
+4. [Step-by-Step Feature Branch Execution](#step-by-step-feature-branch-execution)
+5. [Additional Resources](#additional-resources)
+
+---
+
+## Why Teams Use Collaborative Workflows
+
+In professional software development and game design, version control is more than an individual backup system—it is a collaborative framework. Without a deliberate, shared workflow structure, teams run into persistent development bottlenecks:
+
+*   **Unresolved Merge Conflicts:** When multiple programmers modify the same core codebase or binary assets simultaneously, Git cannot automatically combine the changes.
+*   **Corrupted Production Builds:** Committing untested or partial code directly to the primary codebase can introduce breaking bugs, stopping work for the entire studio.
+*   **Untraceable Development Histories:** Chaotic commit patterns make it nearly impossible to determine *why* a mechanic was added or to isolate and revert a game-breaking bug.
+
+Implementing a standardized Git workflow protects the project's health by ensuring that all code is isolated during development, systematically reviewed, and thoroughly vetted before deployment.
+
+---
+
+## Common Git Workflow Models
+
+Teams generally adopt one of three primary workflow paradigms depending on project size and security constraints.
+
+### 1. Centralized Workflow
+In a Centralized Workflow, team members clone a single remote repository and commit directly to a single primary branch (usually `main`). 
+*   **How it works:** Developers work locally, fetch updates from the remote, resolve conflicts locally, and push directly back to `main`.
+*   **Pros:** Highly straightforward; very minimal operational overhead for small teams.
+*   **Cons:** Extremely risky. A single broken commit or corrupted binary scene asset can immediately stall production for the entire team.
+
+### 2. Feature Branch Workflow
+The Feature Branch Workflow isolates all new development work away from the stable codebase by assigning every task, bug fix, or asset introduction to its own dedicated, short-lived branch.
+*   **How it works:** Developers spin up a brand new branch for a specific feature, push their progress to the remote, and utilize **Pull Requests (PRs)** on GitHub to request peer code review before merging changes into `main`.
+*   **Pros:** Protects the stability of `main`. Facilitates clean peer review and early error checking.
+*   **Cons:** Requires precise local branch management and familiarity with merge operations.
+
+### 3. Forking Workflow
+Common in open-source projects or massive distributed teams, the Forking Workflow gives every developer their own complete server-side copy (a fork) of the official repository.
+*   **How it works:** Developers push code to their individual personal forks and submit a cross-repository Pull Request to the official upstream repository.
+*   **Pros:** Strict access controls; developers can contribute without needing direct write access to the primary codebase.
+*   **Cons:** Overly complex with significant operational overhead for small, tightly knit agile teams.
+
+---
+
+## Game Development Considerations
+
+Collaborating on interactive game projects introduces complex structural challenges that standard web-development workflows do not face:
+
+*   **The Binary Asset Problem:** Game engines generate heavy binary files (e.g., `.png` textures, `.fbx` 3D models, and `.wav` audio files) that Git cannot natively compute diffs for or merge line-by-line. While scripts can be easily merged, asset collisions must be avoided by communicating clearly which team member is editing a specific scene, prefab, or level layout.
+*   **Unity `.meta` Files:** Unity automatically generates a hidden `.meta` file alongside every asset to track internal GUID configurations and import parameters. **Never commit an asset without its corresponding `.meta` file.** If a programmer adds a C# script and pushes it, but an artist pulls the script without its `.meta` companion, Unity will break references throughout the project.
+
+---
+
+## Step-by-Step Feature Branch Execution
+
+The following step-by-step terminal routine outlines the complete life cycle of an isolated feature branch within a team.
+
+### Step 1: Sync and Update local Environment
+Before starting any development, sync your local repository with the remote server to guarantee you are building on top of the latest, most stable code.
+```bash
+git checkout main
+git pull origin main
+```
+
+### Step 2: Establish a Distinct Feature Branch
+Create and switch to a targeted branch. Use clear, descriptive names prefixed by the nature of the task (e.g., `feature/`, `bugfix/`, or `art/`).
+```bash
+git checkout -b feature/player-movement
+```
+
+### Step 3: Stage and Commit Incremental Work
+Make regular, granular commits as you hit milestones. Write your messages in the imperative, active voice.
+```bash
+# Verify modified and untracked files (check for matching .meta files!)
+git status
+
+# Stage your modified C# script along with its meta data
+git add Assets/Scripts/PlayerMovement.cs Assets/Scripts/PlayerMovement.cs.meta
+
+# Commit with a concise summary of the functional change
+git commit -m "Implement basic keyboard WASD input controls for player movement"
+```
+
+### Step 4: Publish to the Remote and Open a Pull Request
+Push your local tracking branch up to GitHub to prepare for the review process.
+```bash
+git push -u origin feature/player-movement
+```
+*Note: The `-u` (upstream) flag links your local feature branch directly to the remote branch for all subsequent pushes and pulls.*
+
+### Step 5: Merge and Safely Clean Up
+Once your Pull Request passes continuous testing and is formally approved by a team member on GitHub, merge the branch into `main` using the GitHub web interface. Afterwards, return to your terminal to clean up your workspace:
+```bash
+# Shift back to the main branch
+git checkout main
+
+# Pull down the newly merged code from the remote server
+git pull origin main
+
+# Safely delete the local feature branch that is no longer needed
+git branch -d feature/player-movement
+```
+
+---
+
+## Additional Resources
+
+*   [Pro Git Book: Distributed Workflows](https://git-scm.com)
+*   [GitHub Flow Documentation](https://docs.github.com/en/get-started/using-github/github-flow)
+*   [Atlassian Git: Comparing Workflows](https://atlassian.com)
